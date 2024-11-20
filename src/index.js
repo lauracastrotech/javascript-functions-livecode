@@ -1,8 +1,8 @@
 const doubleTheNums = function(arr) {
-    for (let i = 0; i < arr.length; i++) {
-        arr[i] *= 2;
-    }
-    return arr;
+  for (let i = 0; i < arr.length; i++) {
+    arr[i] *= 2;
+  }
+  return arr;
 };
 
 // convert above function to an arrow function
@@ -19,7 +19,7 @@ const doubleTheNums = function(arr) {
 
 // use one of the functions above as the action parameter when you invoke the callback function below
 const doMultipleTimes = (action, numTimes) => {
-    for (let i = 0; i < numTimes; i++) {
-        console.log(action());
-    }
+  for (let i = 0; i < numTimes; i++) {
+    console.log(action());
+  }
 };
